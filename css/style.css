@@ -4,13 +4,19 @@
 
 body {
     margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+
 }
 
-body,
+img {
+    max-width: 100%;
+}
+
+/* body,
 html {
 
     overflow: hidden;
-}
+} */
 
 header {
     background-color: #FF6720;
@@ -34,5 +40,78 @@ header .row {
     display: flex;
     justify-content: space-evenly;
     width: 70%;
+}
+
+header .row .custom span {
     color: white;
+
+}
+
+#banner {
+    background-image: url(../images/allteamsm.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+/* section .container {
+    padding: 0 70px;
+    color: #1A4955;
+} */
+#business-section .row {
+    padding: 0 70px;
+    color: #1A4955;
+}
+
+
+#business-section {
+    background-color: #FAFAFA;
+}
+
+#business-section h1 {
+    font-size: 71px;
+    margin: 30px 0;
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+#business-section .first-row span {
+    background-color: #ff6720;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 11px 16px;
+}
+
+#business-section .second-row {
+    background-color: white;
+    display: flex;
+    padding-top: 63px;
+}
+
+#business-section .second-row img {
+    max-width: 100%;
+    width: 75px;
+}
+
+#business-section .second-row .right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#business-section .second-row .custom {
+    padding-left: 20px;
+    font-size: 19px;
+    color: black;
+}
+
+
+#facts_figures .first-row span {
+    background-color: #ff6720;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 11px 16px;
 }
