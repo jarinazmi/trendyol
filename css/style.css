@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+body,
+html {
+
+    overflow: hidden;
+}
+
+header {
+    background-color: #FF6720;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+    width: 80%;
+}
+
+header .row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    color: white;
+}
